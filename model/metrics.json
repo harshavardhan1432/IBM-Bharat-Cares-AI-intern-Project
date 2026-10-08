@@ -1,0 +1,89 @@
+{
+  "model": "TF-IDF word+character features + Logistic Regression",
+  "dataset_rows": 776,
+  "classes": [
+    "AI Engineer",
+    "Data Scientist",
+    "Full Stack Developer",
+    "Machine Learning Engineer"
+  ],
+  "holdout_test_size": 156,
+  "holdout_accuracy": 0.9679,
+  "holdout_macro_f1": 0.9679,
+  "confusion_matrix_labels": [
+    "AI Engineer",
+    "Data Scientist",
+    "Full Stack Developer",
+    "Machine Learning Engineer"
+  ],
+  "confusion_matrix": [
+    [
+      38,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      37,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      39,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      37
+    ]
+  ],
+  "classification_report": {
+    "AI Engineer": {
+      "precision": 0.95,
+      "recall": 0.9743589743589743,
+      "f1-score": 0.9620253164556962,
+      "support": 39.0
+    },
+    "Data Scientist": {
+      "precision": 0.9736842105263158,
+      "recall": 0.9487179487179487,
+      "f1-score": 0.961038961038961,
+      "support": 39.0
+    },
+    "Full Stack Developer": {
+      "precision": 0.9512195121951219,
+      "recall": 1.0,
+      "f1-score": 0.975,
+      "support": 39.0
+    },
+    "Machine Learning Engineer": {
+      "precision": 1.0,
+      "recall": 0.9487179487179487,
+      "f1-score": 0.9736842105263158,
+      "support": 39.0
+    },
+    "accuracy": 0.967948717948718,
+    "macro avg": {
+      "precision": 0.9687259306803594,
+      "recall": 0.9679487179487178,
+      "f1-score": 0.9679371220052433,
+      "support": 156.0
+    },
+    "weighted avg": {
+      "precision": 0.9687259306803594,
+      "recall": 0.967948717948718,
+      "f1-score": 0.9679371220052432,
+      "support": 156.0
+    }
+  },
+  "dataset_note": "Synthetic academic profiles created from a curated role-skill/task taxonomy; not a real labor-market dataset.",
+  "external_basis": [
+    "O*NET OnLine software skills for Data Scientists and Software Developers (updated 2026).",
+    "ESCO Skills-Occupations Matrix / Software Developer knowledge and skill concepts (ESCO v1.2.1, updated 2025)."
+  ]
+}

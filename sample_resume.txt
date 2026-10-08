@@ -1,0 +1,8 @@
+Harsha Vardhan
+B.Tech Computer Science
+
+Skills: Python, NumPy, Pandas, SQL, Machine Learning, PyTorch, NLP, FastAPI, Git
+
+Interests: Artificial Intelligence, LLM applications, Machine Learning
+
+Projects: Built an NLP assistant, trained a prediction model, prepared datasets with Pandas and deployed a model API.
